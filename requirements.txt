@@ -1,0 +1,42 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+attrs=20.3.0=pypi_0
+automat=20.2.0=pypi_0
+ca-certificates=2021.1.19=haa95532_1
+certifi=2020.12.5=py37haa95532_0
+cffi=1.14.5=pypi_0
+constantly=15.1.0=pypi_0
+cryptography=3.4.6=pypi_0
+cssselect=1.1.0=pypi_0
+hyperlink=21.0.0=pypi_0
+idna=3.1=pypi_0
+incremental=21.3.0=pypi_0
+itemadapter=0.2.0=pypi_0
+itemloaders=1.0.4=pypi_0
+jmespath=0.10.0=pypi_0
+lxml=4.6.3=pypi_0
+openssl=1.1.1j=h2bbff1b_0
+parsel=1.6.0=pypi_0
+pip=21.0.1=py37haa95532_0
+protego=0.1.16=pypi_0
+pyasn1=0.4.8=pypi_0
+pyasn1-modules=0.2.8=pypi_0
+pycparser=2.20=pypi_0
+pydispatcher=2.0.5=pypi_0
+pyopenssl=20.0.1=pypi_0
+python=3.7.10=h6244533_0
+queuelib=1.5.0=pypi_0
+scrapy=2.4.1=pypi_0
+service-identity=18.1.0=pypi_0
+setuptools=52.0.0=py37haa95532_0
+six=1.15.0=pypi_0
+sqlite=3.35.2=h2bbff1b_0
+twisted=21.2.0=pypi_0
+twisted-iocpsupport=1.0.1=pypi_0
+vc=14.2=h21ff451_1
+vs2015_runtime=14.27.29016=h5e58377_2
+w3lib=1.22.0=pypi_0
+wheel=0.36.2=pyhd3eb1b0_0
+wincertstore=0.2=py37_0
+zope-interface=5.3.0=pypi_0

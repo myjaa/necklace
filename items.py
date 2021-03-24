@@ -8,5 +8,7 @@ import scrapy
 
 class NecklaceItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    desc = scrapy.Field()
+    price = scrapy.Field()
+    img_urls = scrapy.Field()

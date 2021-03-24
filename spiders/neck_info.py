@@ -1,5 +1,9 @@
 # Scrape the website https: // www.houseofindya.com / for list of necklace sets under jewelry and corresponding description, price and image urls. You must use scrapy for this and create output in csv and json formats. and requirements.txt
 
+# scrapy crawl necks -s FEED_URI='data.csv' -s FEED_FORMAT=csv--> for csv
+# scrapy crawl necks --> for crawling
+#scrapy crawl necks -o output.json -->for json
+
 import scrapy
 from ..items import NecklaceItem
 

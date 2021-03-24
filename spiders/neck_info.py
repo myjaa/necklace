@@ -9,9 +9,12 @@ class necklace_set_scrape(scrapy.Spider):
     start_urls = ['https://www.houseofindya.com/zyra/necklace-sets/cat']
 
     def parse(self, response):
+
+        # collecting the links to all product pages of each necklace set
         cata = response.css("ul#JsonProductList li::attr(data-url)").extract()
-        for necklace in cata:
-            yield scrapy.Request(necklace,callback=self.parse_main)
+        
+        for necklace_url in cata:
+            yield scrapy.Request(necklace_url,callback=self.parse_main)
     
     def parse_main(self, response):
         

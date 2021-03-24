@@ -64,6 +64,7 @@ ROBOTSTXT_OBEY = True
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    'necklace.pipelines.NecklacePipeline': 300,
+   # 'necklace.pipelines.CsvPipeline': 200,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
